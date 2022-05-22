@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.labproject.Login">
+   <children>
+      <Button fx:id="sgup" layoutX="103.0" layoutY="507.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="30.0" prefWidth="294.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 50;" text="Sign UP" textFill="#23766e" />
+      <Label fx:id="loginmsg" layoutX="180.0" layoutY="78.0" prefHeight="18.0" prefWidth="240.0" />
+      <Button fx:id="in" layoutX="103.0" layoutY="414.0" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="294.0" style="-fx-background-color: #FFFFFF; -fx-font-size: 12; -fx-background-radius: 50;" text="Login" textFill="#247970">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="321.0" layoutY="450.0" text="Don't hvae an account? Create one:" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="600.0" fitWidth="1084.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@login.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usnm" layoutX="101.0" layoutY="241.0" onAction="#username" prefHeight="45.0" prefWidth="267.0" style="-fx-border-radius: 10;" />
+      <ImageView fx:id="progress" fitHeight="106.0" fitWidth="160.0" layoutX="663.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@loading-opaque.gif" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="pass" layoutX="101.0" layoutY="331.0" onAction="#password" prefHeight="45.0" prefWidth="267.0" style="-fx-border-radius: 10;" />
+      <Button layoutX="102.0" layoutY="414.0" mnemonicParsing="false" onAction="#login" prefHeight="45.0" prefWidth="267.0" style="-fx-background-color: #7DB2B4; -fx-font-size: 16;" text="Sign In" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="101.0" layoutY="498.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="45.0" prefWidth="267.0" style="-fx-background-color: #7DB2B4; -fx-font-size: 16;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

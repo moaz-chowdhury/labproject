@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="649.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.labproject.CTest">
+   <children>
+      <ImageView fitHeight="696.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ctest2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="5.0" layoutY="6.0" mnemonicParsing="false" onAction="#Back" prefHeight="29.0" prefWidth="109.0" style="-fx-background-color: #326762; -fx-background-radius: 10;" text="&lt;-  BACK" textFill="WHITE" />
+      <CheckBox fx:id="q1a" layoutX="131.0" layoutY="171.0" mnemonicParsing="false" onAction="#Q1A" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q1b" layoutX="131.0" layoutY="190.0" mnemonicParsing="false" onAction="#Q1B" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q1c" layoutX="131.0" layoutY="209.0" mnemonicParsing="false" onAction="#Q1C" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q1d" layoutX="131.0" layoutY="228.0" mnemonicParsing="false" onAction="#Q1D" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q2a" layoutX="131.0" layoutY="354.0" mnemonicParsing="false" onAction="#Q2A" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q2b" layoutX="131.0" layoutY="373.0" mnemonicParsing="false" onAction="#Q2B" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q2c" layoutX="131.0" layoutY="392.0" mnemonicParsing="false" onAction="#Q2C" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q2d" layoutX="131.0" layoutY="411.0" mnemonicParsing="false" onAction="#Q2D" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q3a" layoutX="131.0" layoutY="538.0" mnemonicParsing="false" onAction="#Q3A" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q3b" layoutX="131.0" layoutY="557.0" mnemonicParsing="false" onAction="#Q3B" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q3c" layoutX="131.0" layoutY="576.0" mnemonicParsing="false" onAction="#Q3C" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q3d" layoutX="131.0" layoutY="595.0" mnemonicParsing="false" onAction="#Q3D" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q4a" layoutX="620.0" layoutY="171.0" mnemonicParsing="false" onAction="#Q4A" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q4b" layoutX="620.0" layoutY="190.0" mnemonicParsing="false" onAction="#Q4B" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q4c" layoutX="620.0" layoutY="209.0" mnemonicParsing="false" onAction="#Q4C" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q4d" layoutX="620.0" layoutY="228.0" mnemonicParsing="false" onAction="#Q4D" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q5a" layoutX="620.0" layoutY="459.0" mnemonicParsing="false" onAction="#Q5A" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q5b" layoutX="620.0" layoutY="478.0" mnemonicParsing="false" onAction="#Q5B" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q5c" layoutX="620.0" layoutY="497.0" mnemonicParsing="false" onAction="#Q5C" prefHeight="6.0" prefWidth="16.0" />
+      <CheckBox fx:id="q5d" layoutX="620.0" layoutY="516.0" mnemonicParsing="false" onAction="#Q5D" prefHeight="6.0" prefWidth="16.0" />
+      <Label fx:id="show_1" layoutX="240.0" layoutY="260.0" prefHeight="23.0" prefWidth="236.0" textFill="#23766e">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="show_2" layoutX="240.0" layoutY="440.0" prefHeight="23.0" prefWidth="236.0" textFill="#23766e">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="show_3" layoutX="240.0" layoutY="622.0" prefHeight="23.0" prefWidth="236.0" textFill="#23766e">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="show_4" layoutX="726.0" layoutY="260.0" prefHeight="23.0" prefWidth="236.0" textFill="#23766e">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="show_5" layoutX="726.0" layoutY="545.0" prefHeight="23.0" prefWidth="236.0" textFill="#23766e">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="total" alignment="CENTER" contentDisplay="CENTER" layoutX="820.0" layoutY="613.0" prefHeight="43.0" prefWidth="142.0" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="view" layoutX="792.0" layoutY="591.0" mnemonicParsing="false" onAction="#View" opacity="0.0" prefHeight="67.0" prefWidth="198.0" text="Button" />
+   </children>
+</AnchorPane>
