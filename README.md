@@ -1,0 +1,1 @@
+# This is our final AOOP Lab project. We, the 'Team Alo' has created an e-learning platform for the underprivileged people of Bangladesh who are very much interested to learn about technology and eager to develop themselves.
