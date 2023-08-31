@@ -6,7 +6,6 @@
 - **User-Friendly Interface:** Designed for ease of use with Scene Builder, catering to varying technical backgrounds.
 - **Comprehensive Courses:** Diverse technology topics such as programming, digital literacy, and software tools.
 - **OOP Integration:** Platform architecture based on OOP principles for modularity and flexibility.
-- **Interactive Learning:** Incorporates quizzes, coding challenges, and real-time peer interactions via socket programming.
 
 **Impact:** The project empowers underprivileged individuals by imparting valuable tech skills, boosting confidence, and creating pathways for personal and professional advancement.
 
