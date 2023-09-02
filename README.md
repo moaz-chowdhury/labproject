@@ -7,6 +7,10 @@
 - **Comprehensive Courses:** Diverse technology topics such as programming, digital literacy, and software tools.
 - **OOP Integration:** Platform architecture based on OOP principles for modularity and flexibility.
 
+Demo:
+Sign UP and Log In Page- ![Screenshot 2023-09-02 230311](https://github.com/mchowdhury042/labproject/assets/80791571/ec2a6264-0938-4c43-932f-9dae0fb1ef62)
+
+
 **Impact:** The project empowers underprivileged individuals by imparting valuable tech skills, boosting confidence, and creating pathways for personal and professional advancement.
 
 **Future:** Team Alo envisions expansion based on feedback and forming partnerships with NGOs, educational institutions, and government bodies for wider outreach.
