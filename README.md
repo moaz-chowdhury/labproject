@@ -8,7 +8,9 @@
 - **OOP Integration:** Platform architecture based on OOP principles for modularity and flexibility.
 
 Demo:
-Sign UP and Log In Page- ![Screenshot 2023-09-02 230311](https://github.com/mchowdhury042/labproject/assets/80791571/ec2a6264-0938-4c43-932f-9dae0fb1ef62)
+Sign UP and Log In Page- 
+
+![Screenshot 2023-09-02 230311](https://github.com/mchowdhury042/labproject/assets/80791571/ec2a6264-0938-4c43-932f-9dae0fb1ef62)
 
 
 **Impact:** The project empowers underprivileged individuals by imparting valuable tech skills, boosting confidence, and creating pathways for personal and professional advancement.
